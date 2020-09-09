@@ -1,9 +1,14 @@
 #myWizard-image{
 
-    height: 250px;
-    width: 300px; 
+    width: 100%;
+    max-width: 600px; 
     background-color: rgb(8,232,222);
 
+}
+
+.image-size{
+    width: 20%;
+    height: 20%;
 }
 
 .grid {
@@ -30,7 +35,7 @@
 
 .sansserif {
 
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, sans-serif, Arial;
     font-weight: bold;
 
 }
@@ -48,4 +53,10 @@
 .b {
     grid-row-start: 2;
     grid-row-end: 4;
+}
+
+.highlights{
+
+    border: sienna;
+    background-color: tan;
 }
